@@ -1,0 +1,45 @@
+
+/* InputWithClearButton.css */
+
+.inputContainer {
+    position: relative;
+    width: 85%;
+    /* margin: 20px; */
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: all .5s;
+
+  }
+  
+  .inputField:focus{
+    outline: none;
+    border: none;
+}
+
+  .clearButton {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .clearIcon {
+    width: 20px;
+    height: 20px;
+    fill: #ccc;
+    transition: fill 0.3s ease;
+  }
+  
+  .clearButton:hover .clearIcon {
+    fill: #666;
+  }
+  

@@ -1,0 +1,46 @@
+:global(.ul) li {
+  padding: 0.5em 1em;
+}
+:global(.ul) li a {
+  color: #28282b;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0.5em;
+  font-family: sans-serif;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.nav h1,
+.nav ul li a {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.ulNav {
+  display: flex;
+}
+
+.ulNav li {
+  width: 45%;
+  margin: 0.5em;
+}
+
+.ulNav li a {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: #28282b;
+}
+
+.homeIcon {
+  color: #fff;
+  margin-right: 0.5em;
+}/*# sourceMappingURL=search.module.css.map */

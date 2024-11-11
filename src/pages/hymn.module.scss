@@ -1,0 +1,83 @@
+
+.hymn{
+    font-family: sans-serif;
+    .header{
+        text-align: center;
+
+        h3{
+            padding: .5em 0;
+        }
+    }
+    .titleHead{
+        display: flex;
+        justify-content: space-between;
+        padding: .4em 1em;
+
+        h3{
+            font-size: 1.3em;
+            padding-right: .5em;
+
+            span{
+                font-size: 1.5em;
+                margin-right: .3em;
+                font-weight: lighter;
+            }
+        }
+
+       .favIcon svg{
+            font-size: 2em;
+            cursor: pointer;
+        }
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em 0.5em;
+        font-family: sans-serif;
+        // position: sticky;
+        // top: 0;
+        // left: 0;
+      }
+      
+      .nav h1,
+      .nav ul li a {
+        color: #fff;
+        // color: red; 
+        font-size: 1.3rem;
+      }
+      .ulNav {
+        display: flex;
+      }
+      .ulNav li {
+        width: 45%;
+        margin: 0.5em;
+      }
+      
+      .ulNav li a {
+        display: block;
+      
+        text-align: center;
+        font-weight: bold;
+        color: #28282b;
+      }
+
+      .section{
+        padding: 0 1.2em 1em 1em;
+        // background-color: red;
+        font-size: 1.5em;
+
+        div {
+            main{
+                display: flex;
+                gap: .5em;
+            }
+
+            p{
+                margin: 1em 0;
+            }
+        }
+      }
+      
+}

@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0.5em;
+  font-family: sans-serif;
+}
+
+.nav h1,
+.nav ul li a {
+  color: #fff;
+  /* color: red; */
+  font-size: 1.3rem;
+}
+.ulNav {
+  display: flex;
+}
+.ulNav li {
+  width: 45%;
+  margin: 0.5em;
+}
+
+.ulNav li a {
+  display: block;
+
+  text-align: center;
+  font-weight: bold;
+  color: #28282b;
+}

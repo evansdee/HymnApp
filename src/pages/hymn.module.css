@@ -1,0 +1,63 @@
+.hymn {
+  font-family: sans-serif;
+}
+.hymn .header {
+  text-align: center;
+}
+.hymn .header h3 {
+  padding: 0.5em 0;
+}
+.hymn .titleHead {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4em 1em;
+}
+.hymn .titleHead h3 {
+  font-size: 1.3em;
+  padding-right: 0.5em;
+}
+.hymn .titleHead h3 span {
+  font-size: 1.5em;
+  margin-right: 0.3em;
+  font-weight: lighter;
+}
+.hymn .titleHead .favIcon svg {
+  font-size: 2em;
+  cursor: pointer;
+}
+.hymn .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0.5em;
+  font-family: sans-serif;
+}
+.hymn .nav h1,
+.hymn .nav ul li a {
+  color: #fff;
+  font-size: 1.3rem;
+}
+.hymn .ulNav {
+  display: flex;
+}
+.hymn .ulNav li {
+  width: 45%;
+  margin: 0.5em;
+}
+.hymn .ulNav li a {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: #28282b;
+}
+.hymn .section {
+  padding: 0 1.2em 1em 1em;
+  font-size: 1.5em;
+}
+.hymn .section div main {
+  display: flex;
+  gap: 0.5em;
+}
+.hymn .section div p {
+  margin: 1em 0;
+}/*# sourceMappingURL=hymn.module.css.map */
